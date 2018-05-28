@@ -1,0 +1,33 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+header{
+  height:85px;
+  width:100%;
+  margin-left:30px;
+  margin-right:30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:#4a4a4a;
+  font-family: Roboto, sans-serif;
+  line-height: 1.6;
+}
+header span{
+  font-size: 25px;
+}
+header nav img{
+  height:20px;
+  width:20px;
+  margin-left: 10px;
+}
+header nav{
+  display: flex;
+  align-items: center;
+}
+header nav span {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 50px;
+}
