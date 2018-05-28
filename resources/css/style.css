@@ -2,6 +2,9 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+.sitecontainer{
+  width:1440px;
+}
 header{
   height:85px;
   width:auto;
@@ -32,5 +35,33 @@ header nav span {
   margin-left: 50px;
 }
 .backsplash{
-  background-image: url("C:\projects\fotomatic\resources\images\banner-landingpage.jpg");
+  background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  width:100%;
+  height:650px;
+  display:flex;
+  align-items: center;
+}
+.backsplash .box{
+  margin-left:100px;
+  height: 320px;
+  width:560px;
+  background-color: #9DC20A;
+  border: 1px solid #979797;
+  border-radius:4px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+}
+.backsplash .box .button{
+  background-color: #4a4a4a;
+  width: 408px;
+  height: 64px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+  margin-top: 26px;
 }
