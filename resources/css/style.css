@@ -4,6 +4,7 @@ html {
 }
 .sitecontainer{
   width:1440px;
+  margin:0 auto;
 }
 header{
   height:85px;
@@ -41,6 +42,7 @@ header nav span {
   height:650px;
   display:flex;
   align-items: center;
+  margin-bottom: 64px;
 }
 .backsplash .box{
   margin-left:100px;
@@ -64,4 +66,75 @@ header nav span {
   justify-content: center;
   margin-bottom: 56px;
   margin-top: 26px;
+}
+.features{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 46px;
+  background-color: grey;
+}
+.features .featurecontainer{
+  margin-left: 19px;
+  margin-right: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features .featurecontainer img{
+  width:90%;
+  height:65%;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top:32px;
+  margin-bottom:40px;
+}
+.features .featurecontainer .textcontainer p{
+  color:#4a4a4a;
+  font-size:36px;
+  font-family:Roboto-Bold;
+  line-height:1.2;
+}
+.features .featurecontainer .textcontainer span{
+  color:#4a4a4a;
+  font-size: 16px;
+  font-family:Roboto-Light;
+  line-height:1.2;
+}
+.features .featurecontainer .textcontainer{
+  margin-top:0;
+  height:147px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery{
+  background-color: black;
+  width:auto;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery .info{
+  margin-top:64px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+.gallery .info p{
+  color:white;
+  font-size:36px;
+  font-family:Roboto-Bold;
+}
+.gallery .info span{
+  color:white;
+  font-size: 16px;
+  font-family: Roboto-Light;
+  line-height:1.4;
+}
+.gallery .pics{
+  display:flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
