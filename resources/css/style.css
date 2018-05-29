@@ -208,6 +208,19 @@ header .imagelinks{
     justify-content: space-between;
     flex-grow: 1;
   }
+  header .imagelinks .button{
+      background-color: #9DC20A;
+      border-radius:4px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top:3px;
+      padding-bottom: 3px;
+      margin-left: 15px;
+    }
+    header .imagelinks .button p{
+      color:white;
+    }
+  }
   header span{
     display:none;
   }
@@ -216,5 +229,13 @@ header .imagelinks{
   }
   header{
     height:48px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .backsplash{
+    background-position: right;
+  }
+  nav .button{
+    display:none;
   }
 }
