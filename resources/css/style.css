@@ -112,29 +112,109 @@ header nav span {
 .gallery{
   background-color: black;
   width:auto;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.gallery .info{
+  padding-top:64px;
+  margin-bottom: 80px;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
-.gallery .info{
-  margin-top:64px;
-  margin-bottom: 80px;
+.gallery .pics{
+  display: flex;
+  width:98%;
+}
+.endorsement{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.gallery .info p{
+.endorsement p{
+  margin-right: 30px;
+  margin-top:80px;
+  margin-bottom:80px;
+  color:#4a4a4a;
+  font-size:30px;
+  font-family:Palatino-Italic;
+  line-height:1.1;
+}
+footer{
+  height:62px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  color: grey;
+  font-size:12px;
+  font-family: Roboto-Regular;
+  margin-left:32px;
+  margin-right:32px;
+}
+nav .button{
+  display:none;
+  background-color: #9DC20A;
+  border-radius:4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top:3px;
+  padding-bottom: 3px;
+  margin-left: 15px;
+}
+nav .button p{
   color:white;
-  font-size:36px;
-  font-family:Roboto-Bold;
 }
-.gallery .info span{
-  color:white;
-  font-size: 16px;
-  font-family: Roboto-Light;
-  line-height:1.4;
+.backsplash .tablettext{
+  display:none;
 }
-.gallery .pics{
-  display:flex;
-  justify-content: center;
-  flex-wrap: nowrap;
+header .imagelinks{
+  display:none;
+}
+@media only screen and (max-width: 1024px){
+  .sitecontainer{
+    width:auto;
+  }
+  nav .button{
+  display: inline-block;
+  }
+  .backsplash .box{
+    display:none;
+  }
+  .backsplash{
+    display: flex;
+    justify-content: center;
+  }
+  .backsplash .tablettext{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .sitecontainer{
+    width:auto;
+  }
+  .features{
+    display:flex;
+    flex-direction:column;
+  }
+  header .imagelinks{
+    display:flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  header span{
+    display:none;
+  }
+  header nav img{
+    display:none;
+  }
+  header{
+    height:48px;
+  }
 }
